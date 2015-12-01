@@ -1,0 +1,41 @@
+#header {
+    background-image: url("http://www.munisource.org/wp-content/uploads/2014/08/header.png");
+    background-size: 100%;
+    color:white;
+    text-align:center;
+    opacity: 0.75;
+}
+
+#nav {
+    background-color: whitesmoke;
+    line-height:30px;
+    height:120px;
+    width:100px;
+    color:white;
+    float:left;
+    padding:5px;
+}
+#section {
+    background-color: rgba(255, 255, 255, 0.70);
+    background-size: 100%;
+    width: 90%;
+    float:left;
+    padding:10px;
+    color: black;
+}
+#section2 {
+
+}
+#footer {
+    background-image: url("http://randomstory.org/wp-content/uploads/2013/07/41-Best-and-Coolest-Collection-HD-Wallpapers-Ever-38.jpg");
+    background-size: auto;
+    color:whitesmoke;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    font-size: 10px;
+    opacity: 0.75;
+}
+#html {
+    background-image: url("http://www.hdwallpaperscool.com/wp-content/uploads/2013/11/widescreen-cool-3d-hd-wallpapers-images-background.jpg");
+}
