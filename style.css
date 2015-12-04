@@ -1,47 +1,117 @@
 #header {
-    background-image: url("http://www.munisource.org/wp-content/uploads/2014/08/header.png");
+    background-color: rgba(255, 0, 0, 0.50);
     background-size: 100%;
     color:white;
-    text-align:center;
     opacity: 0.75;
+    position: absolute;
+    top: 10px;
 }
 
-#nav {
-    background-color: rgba(255, 255, 255, 1.0);
-    line-height:30px;
-    height:100%;
-    width:100px;
-    color:black;
-    float:left;
-    padding:10px;
-    margin-right: 20px;
-}
 #section {
-    background-color: blue;
+    background-color: rgba(255, 255, 255, 0.50);
     background-size: 100%;
     width: 40%;
     float:right;
-    padding:20px;
+    padding:10px;
     color: black;
+    margin-bottom: 100px;
+    margin-top:  100px;
 }
 #section2 {
     float: left;
     background-size: 100%;
     width: 40%;
-    padding: 20px;
+    padding: 10px;
     color: black;
-    background-color: green;
-
-
-
+    background-color: rgba(255, 0, 0, 0.50);
+    margin-bottom: 100px;
+    margin-top:  100px;
 }
 #footer {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.50);
     background-size: auto;
     color:whitesmoke;
     clear:both;
     text-align:center;
     padding:5px;
     font-size: 10px;
-    opacity: 0.75;
+}
+html {
+    background-image: url(http://www.9hdw.com/uploads/images/original/2013-05/993_boxing%20fighting.jpg);
+}
+/* Targeting both first and second level menus */
+#nav li {
+    float: left;
+    position: relative;
+}
+#nav li a {
+    background: #d6cfbd;
+    border: 3px solid #4f4026;
+    color: #333;
+    display: block;
+    margin: 0 5px 0 0;
+    padding: 5px 8px;
+}
+#nav li a:hover {
+    background: #f7f7f7;
+    text-decoration: none;
+}
+
+/* Targeting the first level menu */
+#nav {
+    display: block;
+    height: 35px;
+    padding: 10px 0;
+    width: 500px;
+    z-index: 100;
+    position: absolute;
+}
+#nav > li > a {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+}
+
+/* Targeting the second level menu */
+#nav li ul {
+    background: #e1ddd3;
+    border: 3px solid #4f4026;
+    color: #333;
+    display: none;
+    margin: -3px 0 0 0;
+    width: 200px;
+    position: absolute;
+}
+#nav li ul li {
+    width: 100%
+}
+#nav li ul li a {
+    background: none;
+    border: none;
+    line-height: 30px;
+    margin: 0;
+    padding: 0 0 0 5px;
+}
+#nav li ul li a:hover {
+    background: #f7f7f7;
+}
+
+/* Third level menu */
+#nav li ul li ul{
+    right: -200px; top: 0;
+}
+
+/* A class of current will be added via jQuery */
+#nav li.current > a {
+    background: #f7f7f7;
+}
+/* CSS fallback */
+#nav li:hover > ul.child {
+    display: block;
+}
+#nav li:hover > ul.grandchild  {
+    display: block;
 }
