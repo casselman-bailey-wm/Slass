@@ -19,5 +19,26 @@ $(document).ready(function(){
     });
 
 });
+var nameInput = document.getElementById("name");
+var tableOutput = document.getElementById("table");
+function update() {
+    var newItem = getInputItem();
+    updateTable(newItem);
+}
+function getInputItem() {
+    var item = {
+        name: nameInput.value,
+    };
+    return item;
+}
+function updateTable(item) {
+    if(item.name == "") return;
+    var tablerow = document.createElement("tr");
+    var name = document.createElement("td");
+    name.innerHTML = item.name;
+    tablerow.appendChild(name);
+    $(tableOutput).append($(tablerow).hide().fadeIn(500));
+
+}
 
 
