@@ -27,7 +27,7 @@ function update() {
 }
 function getInputItem() {
     var item = {
-        name: nameInput.value,
+        //name: nameInput.value,
     };
     return item;
 }
@@ -37,7 +37,7 @@ function updateTable(item) {
     var name = document.createElement("td");
     name.innerHTML = item.name;
     tablerow.appendChild(name);
-    $(tableOutput).append($(tablerow).hide().fadeIn(500));
+    document.getElementById('status').innerHTML=document.getElementById('name').value;
 
 }
 
