@@ -37,7 +37,9 @@
     font-size: 10px;
 }
 html {
-    background-image: url(http://www.9hdw.com/uploads/images/original/2013-05/993_boxing%20fighting.jpg);
+    background-image: url(http://media.merchantcircle.com/32207117/Gym%20Pic%201_full.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 /* Targeting both first and second level menus */
 #nav li {
