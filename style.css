@@ -1,12 +1,8 @@
+#logo {
+    background-color: rgba(255,255,255,0.50);
+}
 #header {
-<<<<<<< HEAD
-<<<<<<< HEAD
-    background-color: aqua;
-=======
     background-color: rgba(255, 0, 0, 0.50);
->>>>>>> 64aaac8ce85f7d3cf22d96dc286e1ffb9d38eae5
-=======
->>>>>>> Zach
     background-size: 100%;
     color:white;
     opacity: 0.75;
@@ -21,8 +17,8 @@
     float:right;
     padding:10px;
     color: white;
-    margin-bottom: 100px;
-    margin-top:  100px;
+    margin-bottom: 10px;
+    margin-top:  10px;
 }
 #section2 {
     float: left;
@@ -31,20 +27,23 @@
     padding: 10px;
     color: white;
     background-color: darkred;
-    margin-bottom: 100px;
-    margin-top:  100px;
+    margin-bottom: 10px;
+    margin-top:  10px;
 }
 #footer {
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(255,255,255,0.50);
     background-size: auto;
-    color:whitesmoke;
+    color:white;
     clear:both;
     text-align:center;
     padding:5px;
     font-size: 10px;
 }
 html {
-    background-image: url(http://www.9hdw.com/uploads/images/original/2013-05/993_boxing%20fighting.jpg);
+    background-image: url(http://media.merchantcircle.com/32207117/Gym%20Pic%201_full.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:black;
 }
 /* Targeting both first and second level menus */
 #nav li {
