@@ -43,8 +43,10 @@
     padding:5px;
     font-size: 10px;
 }
-html {
-    background-image: url(http://www.9hdw.com/uploads/images/original/2013-05/993_boxing%20fighting.jpg);
+body {
+    background-image: url(https://omoftheday.files.wordpress.com/2012/03/heavy-bag.jpg);
+    background-size: 100% 200% ;
+    background-repeat: no-repeat;
 }
 /* Targeting both first and second level menus */
 #nav li {
@@ -121,4 +123,15 @@ html {
 }
 #nav li:hover > ul.grandchild  {
     display: block;
+}
+#form {
+    background-color: gray;
+    background-size: 100%;
+    width: 40%;
+    float: left;
+    padding:10px;
+    color: white;
+    margin-bottom: 100px;
+    margin-top:  100px;
+    margin-left: 30%;
 }
