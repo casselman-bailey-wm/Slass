@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slass</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="logo">
+    <p style="text-align: center;">
+        <img style="height: 50px; width: 50px" src="slass%20logo.png">
+    </p>
+</div>
+
+<div id="header">
+    <ul id="nav">
+        <li><a href="index.html"><button style="background-color: black; color: white;">Home</button></a></li>
+        <li>
+            <a href="#"><button style="background-color: black; color: white;">More</button></a>
+            <ul class="child">
+                <li><a href="ranking.html">Ranking</a></li>
+                <li><a href="index2.html">Fight now</a></li>
+                <li><a href="login1.html">Create account/login</a>
+                    <ul>
+                        <li><a href="#">10 watt</a></li>
+                        <li><a href="#">20 watt</a></li>
+                        <li><a href="#">30 watt</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">More</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+
+<div id="form">
+    <form name="contactform" method="post" action="contact.php" onsubmit="return validateForm()">
+
+        <fieldset><legend><span style="font-size: 12px;">&nbsp;CONTACT DETAILS&nbsp;</span></legend>
+            <label for="firstname" class="left">First name:</label>
+            <font color="#FF0000">*</font><input type="text" name="firstname" id="firstname" class="field" value="" maxlength="35" tabindex="1" /><br /><br />
+
+            <label for="phone" class="left">Phone:</label>
+            <font color="#FF0000">*</font><input type="text" name="phone" id="phone" class="field" value="" maxlength="10" tabindex="2" /><br /><br />
+
+            <label for="checkin" class="left">Check In:</label>
+            <font color="#FF0000">*</font><input type="text" class="datepicker" tabindex="3" /><br /><br />
+
+
+            <label for="checkout" class="left">Check Out:</label>
+            <font color="#FF0000">*</font><input type="text" class="datepicker" tabindex="4" /><br /><br />
+
+
+        </fieldset>
+
+        <input type="reset" name="clear" id="clear" class="button" value="Clear" tabindex="7" />
+        <input type="submit" name="submit" id="submit" class="button" value="Send" tabindex="8" /><br /><br />
+
+        </fieldset>
+    </form>
+</div>
+
+
+
+<div id="footer">
+    <h1 style="font-family: monospace">
+        Copyright &copy; Slass: Zachary Kurtz, Efrain Lopez, Christopher Chu, & Bailey Casselman
+    </h1>
+
+</div>
+
+</body>
+</html>
