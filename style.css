@@ -1,0 +1,138 @@
+#logo {
+    background-color: rgba(255,255,255,0.50);
+}
+#header {
+    background-color: rgba(255, 0, 0, 0.50);
+    background-size: 100%;
+    color:white;
+    opacity: 0.75;
+    position: absolute;
+    top: 10px;
+}
+
+#section {
+    border-radius: 25px;
+    background-color: darkred;
+    background-size: 100%;
+    width: 40%;
+    float:right;
+    padding:10px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top:  10px;
+}
+#section2 {
+    border-radius: 25px;
+    float: left;
+    background-size: 100%;
+    width: 40%;
+    padding: 10px;
+    color: white;
+    background-color: darkred;
+    margin-bottom: 10px;
+    margin-top:  10px;
+}
+#footer {
+    background-color: rgba(255,255,255,0.50);
+    background-size: auto;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    font-size: 10px;
+    margin-top:900px;
+}
+html {
+    background-image: url(http://media.merchantcircle.com/32207117/Gym%20Pic%201_full.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color:black;
+}
+/* Targeting both first and second level menus */
+#nav li {
+    float: left;
+    position: relative;
+}
+#nav li a {
+    background: #d6cfbd;
+    border: 3px solid #4f4026;
+    color: #333;
+    display: block;
+    margin: 0 5px 0 0;
+    padding: 5px 8px;
+}
+#nav li a:hover {
+    background: #f7f7f7;
+    text-decoration: none;
+}
+
+/* Targeting the first level menu */
+#nav {
+    display: block;
+    height: 35px;
+    padding: 10px 0;
+    width: 500px;
+    z-index: 100;
+    position: absolute;
+}
+#nav > li > a {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-topright: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+}
+
+/* Targeting the second level menu */
+#nav li ul {
+    background: #e1ddd3;
+    border: 3px solid #4f4026;
+    color: #333;
+    display: none;
+    margin: -3px 0 0 0;
+    width: 200px;
+    position: absolute;
+}
+#nav li ul li {
+    width: 100%
+}
+#nav li ul li a {
+    background: none;
+    border: none;
+    line-height: 30px;
+    margin: 0;
+    padding: 0 0 0 5px;
+}
+#nav li ul li a:hover {
+    background: #f7f7f7;
+}
+
+/* Third level menu */
+#nav li ul li ul{
+    right: -200px; top: 0;
+}
+
+/* A class of current will be added via jQuery */
+#nav li.current > a {
+    background: #f7f7f7;
+}
+/* CSS fallback */
+#nav li:hover > ul.child {
+    display: block;
+}
+#nav li:hover > ul.grandchild  {
+    display: block;
+}
+#form {
+    background-color: darkred;
+    background-size: 100%;
+    width: 40%;
+    float: left;
+    padding: 10px;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 30%;
+    border-radius: 25px;
+}
